@@ -10,5 +10,12 @@ function removeDuplicates(arr) {
     return uniqueElements
 }
 
+console.log(removeDuplicates([1, 2, 3, 4, 4, 5, 6, 6]))
 
-console.log(removeDuplicates([1,2,3,4,4,5,6,6]))
+// using set(The Set Object is a collection of unique values, meaning that duplicate values are   not allowed)
+
+function removeDuplicate(arr) {
+    return [...new Set(arr)]
+}
+
+console.log(removeDuplicate([3, 2, 3, 4, 4, 5, 6, 6, 1]))
