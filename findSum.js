@@ -17,3 +17,4 @@ function findSum(arr) {
 }
 
 console.log(findSum([3, 2, 4, 5, 8]))
+console.log(findSum([3, 2, 5, 5, 8]))
